@@ -1,0 +1,55 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(red, green, blue);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 90%;
+    margin: auto;
+    table-layout: fixed;
+}
+thead{
+    background-color: burlywood;
+}
+th, td{
+    border: 1px outset;
+    padding: 8px 10px ;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;;
+}
+tbody{
+    background-color: rgb(229, 247, 247);
+}
+body{
+    background-color: gainsboro;
+}
+tfoot{
+    background-color: rgb(229, 247, 247);
+    text-align: center;
+}
+.img1{
+    width: 70px;
+}.img2{
+    width: 70px;
+}
+.img3{
+    width: 70px;
+}
+.img4{
+    width: 70px;
+}
+.img5{
+    width: 70px;
+}
+.img6{
+    width: 70px;
+}
+.img7{
+    width: 70px;
+}
+.delete-icon {
+    color: red;
+    cursor: pointer;
+    margin-left: 5px;
+}
